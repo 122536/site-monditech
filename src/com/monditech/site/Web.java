@@ -1,17 +1,12 @@
 package com.monditech.site;
 
 import javax.ejb.LocalBean;
-import javax.mail.internet.AddressException;
-import javax.mail.internet.InternetAddress;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-
-import com.monditech.moon.Retorno;
-import com.monditech.moon.SQL;
 
 @LocalBean
 @Path("/")
